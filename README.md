@@ -1,1 +1,1 @@
-First C script
+More fucntions and nested loops
