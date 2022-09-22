@@ -1,1 +1,1 @@
-More fucntions and nested loops
+Pointers, Arrays and Strings
