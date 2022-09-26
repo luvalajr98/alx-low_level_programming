@@ -1,9 +1,5 @@
 #include "main.h"
 
-/*Authored by Moses Morris*/
-/*Function file*/
-/*Betty Lint Coding and format style*/
-
 /**
  * _strchr - A function that locates a character in a string...
  *
