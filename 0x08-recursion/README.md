@@ -5,3 +5,54 @@ TASK 0 Write a function that prints a string, followed by a new line.
 	Prototype: void _puts_recursion(char *s);
 
 	FYI: The standard library provides a similar function: puts. Run man puts to learn more.
+
+TASK 1- a function that prints a string in reverse.
+	
+	Prototype: void _print_rev_recursion(char *s);
+
+TASK 2- A function that returns the length of a string.
+
+	Prototype: int _strlen_recursion(char *s);
+
+	FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
+
+TASK 3- A function that returns the factorial of a given number
+
+	Prototype: int factorial(int n)
+
+	If n is lower than 0, the function should return -1 to indicate an error
+
+	Factorial of 0 is 1
+
+TASK 4- A function that returns the value of x raised to the power of y
+	
+	Prototype: int _pow_recursion(int x, int y);
+
+	If y is lower than 0, the function should return -1
+
+	FYI: The standard library provides a different function: pow. Run man pow to learn more.
+
+TASK 5- A function that returns the natural square root of a number.
+
+	If n does not have a natural square root, the function should return -1
+
+	The standard library provides a different function: sqrt. Run man sqrt to learn more.
+
+TASK 6- A function that returns 1 if the input integer is a prime number, otherwise return 0
+
+	Prototype: int is_prime_number(int n);
+
+TASK 7- A function that returns 1 if a string is a palindrome and 0 if not
+
+	Prototype: int is_palindrome(char *s)
+	
+	An empty string is a palindrome
+
+TASK 8- A function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0
+
+	Prototype: int wildcmp(char *s1, char *s2)
+
+	s2 can contain the special character *
+
+	he special char * can replace any string (including an empty string)
+
