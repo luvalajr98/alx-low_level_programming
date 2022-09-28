@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
-* _sqrt_recursion - function returns the natural square root of a number
-* otherwise return 0.
-*
-* @n: this is the result to find
-* @num: number to multiply by itslef to give result
-* Return: root square of the number
-*
-*/
-
+ * root_square - Returns the natural square root of a number
+ * otherwise return 0.
+ *
+ * @n: result to find.
+ * @num: number multiply by itself give the result.
+ * Return: root square of the number
+ *
+ */
 int root_square(int num, int n)
 {
 	/*Base case*/
