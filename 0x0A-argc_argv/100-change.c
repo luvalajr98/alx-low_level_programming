@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints the minimum number of coins to make change for an amount of money
+ * main - prints minimum number of coins to make change for an amount of money
  *
  * @argv: Declare an array variable of Char type.
  *
