@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - Program that multiplies two numbers...
  *
