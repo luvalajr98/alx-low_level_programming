@@ -1,1 +1,1 @@
-momory allocation
+Memory Allocation
