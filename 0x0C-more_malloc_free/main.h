@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int _putchar(char c);/* Prints characters*/
 void *malloc_checked(unsigned int b); /* This is a prototype function that allocates memory using Malloc*/
 char *string_nconcat(char *s1, char *s2, unsigned int n); /*a function that concatenates two strings*/
 void *_calloc(unsigned int nmemb, unsigned int size); /* A function that allocates memory for an array using Malloc*/
