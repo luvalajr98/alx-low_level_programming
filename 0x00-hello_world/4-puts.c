@@ -6,7 +6,8 @@
  * Return: 0
  */
 
-int main(void)
+int main(void) //This will mark the start of the new determined journey of my studies
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
