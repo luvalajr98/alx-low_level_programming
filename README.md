@@ -5,7 +5,7 @@ This README file contains scripts and solved programs in the C language
 
 0x05. C - Pointers, arrays and strings
 
-	Pointers in C
+Pointers in C
 		
 		A pointer is a variable whose address is the value of another variable. You must declare a pointer before using it, this should be noted. 
 
@@ -22,7 +22,7 @@ This README file contains scripts and solved programs in the C language
 		Pointers in C basically are used when we are accessing memory for a program. We all know that variables are memory locations that can be accessed using the & operator. Pointers store the addresses in Hexadecimal numbers. 
 
 
-	Eager to See pointers in use? 
+Eager to See pointers in use? 
 		
 		Here is an example: #include <stdio.h>
 
@@ -59,6 +59,9 @@ int main () {
 			if (ptr)- Checks whether the pointer points to a valid address
 			if (!ptr)- checks whether the pointer is null.
 
+C - Pointer arithmetic
+	
+			
 
 
 
