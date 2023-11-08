@@ -59,9 +59,32 @@ int main () {
 			if (ptr)- Checks whether the pointer points to a valid address
 			if (!ptr)- checks whether the pointer is null.
 
-C - Pointer arithmetic
+
 	
-			
+C - Pointer arithmetic
+
+        There are four major arithmetics for pointers in C. This are: 1) ++ 2) -- 3) + 4) -
+                Example: Consider that ptr is an integer pointing to address 100, assuming 32-bit integers, when ptr++ is performed, the new address will be 104. This is because each increment will point to a new address which is 4bytes next to the current location. But if it was pointing to a character, the new address would be 101, because the next character will be available at this address.
+
+        We prefer using a pointer because unlike an array, a pointer can be incremented and decremented. Pointers can be compared using operators such as ==, <, >. If pointer 1 and pointer 2 point to variables related, like elements of the same array, P1 and P2 can be compared.
+
+C-Arrays in Pointers
+
+        int *ptr[MAX]; can be used to declare an array of MAX interger pointers. This is when you want to maintain an array which can store pointers to an int or char or any other data type.
+
+                int  var[] = {10, 100, 200};
+`               int i, *ptr[MAX];
+
+        the output will be Value of var[0] = 10  Value of var[1] = 100  Value of var[2] = 200.
+
+You can also use an array of pointers to store list of strings as follows:
+
+         char *names[] = {
+                "Zara Ali",
+                 "Hina Ali",
+      "Nuha Ali",
+      "Sara Ali"
+   };			
 
 
 
