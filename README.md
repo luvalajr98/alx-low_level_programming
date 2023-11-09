@@ -91,6 +91,81 @@ You can also use an array of pointers to store list of strings as follows:
 
 
 
+C - Pointer to Pointer
+
+
+	This is when a pointer points to the address of another pointer that points to a second address that has the value, this should be declared. int **var; for us to access the value of in the address pointed to by the pointer, we use ** twice.
+
+example: 
+
+#include <stdio.h>
+ 
+int main () {
+
+   int  var;
+   int  *ptr;
+   int  **pptr;
+
+   var = 3000;
+
+   /* take the address of var */
+   ptr = &var;
+
+   /* take the address of ptr using address of operator & */
+   pptr = &ptr;
+
+   /* take the value using pptr */
+   printf("Value of var = %d\n", var );
+   printf("Value available at *ptr = %d\n", *ptr );
+   printf("Value available at **pptr = %d\n", **pptr);
+
+   return 0;
+}
+
+the out put of this will be 
+
+Value of var = 3000
+Value available at *ptr = 3000
+Value available at **pptr = 3000
+
+
+
+Passing pointers to functions in C
+
+We can pass a pointer to a function, this can be achieved by passing an unsigned long pointer to a function and change the value of the function. Here is an example: 
+
+#include <stdio.h>
+#include <time.h>
+
+void getSeconds(unsigned long *par);
+
+int main () {
+
+unsigned long sec;
+getSeconds( &sec );
+
+//print the actual value
+
+printf("Number of seconds: %ld\n", sec);
+
+return 0;
+
+}
+
+voide getSe
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	Arrays in C
@@ -99,7 +174,7 @@ You can also use an array of pointers to store list of strings as follows:
 		
 	Declaring of Arrays
 
-		A user declares an array byu stating the number of elements required tied tot he data type.
+		A user declares an array by stating the number of elements required tied tot he data type.
 		
 			eg: dataType arrayName [arraySize];
 				double balance [10];
