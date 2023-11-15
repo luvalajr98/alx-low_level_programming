@@ -154,7 +154,7 @@ return 0;
 
 voide getSe
 
-
+Pointers can be used to point and pass as arrays! Best example is below.
 
 
 
