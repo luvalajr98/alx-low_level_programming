@@ -12,18 +12,24 @@
  */
 int prime(int i, int num)
 {
-	/*Base case*/
+	//Base case to check if the num is greater than i, if true, functions open the next block
 	if (i < num)
 	{
+	
+	//checks if num is divisible by i evenly, if yes, then num is not prime number, prime number is only divisible by 1 and itself
 		if (num % i == 0)
 		{
 			return (0);
 		}
 	}
+
+	//checks if num = i, if true, means no other divisor is applicable apart from 1 and num, hence number is prime
 	if (num == i)
 	{
 		return (1);
 	}
+
+	//if num != i, return is subjected to recursive function with i being incrememnted by 1
 	else
 	{
 		return (prime(i + 1, num));
@@ -39,10 +45,12 @@ int prime(int i, int num)
  */
 int is_prime_number(int n)
 {
-	/* base case */
+	// base case checking if n is a negative
 	if (n <= 1)
 	{
 		return (0);
 	}
+
+	//calls the recursive function to find the prime number
 	return (prime(2, n));
 }
