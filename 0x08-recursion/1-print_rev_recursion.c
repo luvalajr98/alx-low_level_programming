@@ -7,16 +7,16 @@
 * Return: Always void.
 */
 
-void _print_rev_recursion(char *s)
+void _print_rev_recursion(char *s) //this function takes pointer to character as its value
 {
-	if (*s == '\0')
+	if (*s == '\0') //this checks whether the current character is a null terminator
 	{
-		s--;
+		s--; 
 	}
 	else
 	{
 		_print_rev_recursion(++s);
 		s--;
-		_putchar(*s);
+		_putchar(*s); //since the recursve function is called before the printing of the current character, the string is printed in reverse
 	}
 }
