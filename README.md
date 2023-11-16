@@ -154,7 +154,41 @@ return 0;
 
 voide getSe
 
-Pointers can be used to point and pass as arrays! Best example is below.
+Pointers can be used to point and pass as arrays! 
+	// function declaration
+
+		double getAverage(int *arr, int size);
+
+	int main () {
+
+	//declare an array with 5 elements
+
+		int balance[5] = {0, 1, 2, 3, 4};
+		double avg;
+
+	//pass pointer to array as an argument
+
+		avg = getAverage(balance, 5);
+
+	//output will be as follows
+
+		printf("Average Value is: %f\n", avg);
+
+	return 0;
+	}
+
+	double getAverage(int *arr, int size) {
+
+		   int  i, sum = 0;       
+		   double avg;          
+ 
+  		 for (i = 0; i < size; ++i) {
+     		 sum += arr[i];
+	   }
+	 
+	   avg = (double)sum / size;
+	   return avg;
+	}
 
 
 
@@ -204,4 +238,8 @@ Pointers can be used to point and pass as arrays! Best example is below.
 		Accesing the addresses for elements of an array turns out to be so easy. This is done by indexing the array name! Below is an example. 
 		
 			example: double pay = balance[9]; //In this statement, the array will take the tenth element and assin to the viaraible 'pay'
+
+
+RECURSIONS IN C
+
 
