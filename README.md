@@ -241,5 +241,97 @@ Pointers can be used to point and pass as arrays!
 
 
 RECURSIONS IN C
+ 
+	Recursion is the process of repeattig items in a self-similar way. That is, calling a function inside the same function. 
+	One should be carefull to define an exit condition from the function during recursion. 
+
+	best examples are ad below. We can use the recursion of functions to write a factorial program: 
+
+		#include <stdio.h>
+		
+		unsigned long long int factorial(unsigned int i) {
+
+			if(i <= 1) {return 1};
+
+			return i *factorial(i-1);
+
+		}
+
+		//start of program
+			
+			int main () {
+
+				int = 12;
+				printf("FActorial of %d is %d\n", i, factorial(i)); 
+				
+					return 0;
+				     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
