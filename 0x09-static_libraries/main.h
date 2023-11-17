@@ -1,4 +1,4 @@
-#ifndef MAIN_H //this will define the header file
+#ifndef MAIN_H 
 #define MAIN_H
 int _putchar(char c);
 int _islower(int c);
@@ -20,4 +20,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-#endif //this is the guard command that makes the program call the header file only once and ignore the other times during compiling and execution
+#endif 
