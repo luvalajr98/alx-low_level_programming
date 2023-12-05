@@ -1,4 +1,4 @@
-#include <stdio.h> //Building puzzles
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -6,7 +6,8 @@
  * Return: 0
  */
 
-int main(void) //This will mark the start of the new determined journey of my studies
+int main(void) 
+/*This will mark the start of the new determined journey of my studies*/
 
 {
 	puts("\"Programming is like building a multilingual puzzle");
