@@ -9,13 +9,12 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t increament;
+	size_t count = 0;
 
-	increament = 0;
 	while (h != NULL)
 	{
 		h = h->next;
-		increament++;
+		count++;
 	}
-	return (increament);
+	return (count);
 }
