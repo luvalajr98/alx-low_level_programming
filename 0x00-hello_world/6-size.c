@@ -3,6 +3,7 @@
 /*
 * main - prints the size of characters
 * This program is mainly used to print the sizes of characters
+*
 * Return: Always 0 (success)
 */
 
