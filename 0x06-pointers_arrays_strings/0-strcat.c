@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <windows.h>
 
 /**
  *  _strcat - concatenate two strings
