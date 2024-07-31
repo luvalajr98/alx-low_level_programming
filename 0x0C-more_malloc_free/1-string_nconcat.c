@@ -8,7 +8,8 @@
 * @n: Amount of bytes of s2 array.
        *
 * Return: a pointer with the memory location of the concatenate string.
-	 */
+*/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr = NULL;
